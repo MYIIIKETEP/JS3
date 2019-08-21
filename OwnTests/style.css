@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0%;
+}
+
+.frow {
+    height: 420px;
+    background:url("https://miro.medium.com/max/1000/1*teDil2L5DxLMRz76eFhyhg.png") no-repeat;
+    background-size: 100%;
+
+
+}
+.header {
+    left: 15%;
+    top:170px;
+    font-size: 42px;
+    color: wheat;
+    position: relative;
+    -webkit-text-stroke-width: 1px;
+   -webkit-text-stroke-color: red;
+}
