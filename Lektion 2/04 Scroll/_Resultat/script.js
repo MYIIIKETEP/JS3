@@ -1,10 +1,12 @@
 function checkForVisibility() {
   var headers = document.querySelectorAll(".header");
+  var picture = document.querySelector("img");
   headers.forEach(function(header) {
     if (isElementInViewport(header)) {
       header.classList.add("headerVisible");
+      picture.classList.add("imgVis");
     } else {
-      header.classList.remove("headerVisible");
+      
     }
   });
 }

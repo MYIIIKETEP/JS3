@@ -1,0 +1,50 @@
+.spinner {
+  margin: 100px auto;
+  width: 50px;
+  height: 40px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+  
+  animation: stretch 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  /* Lägg till "animation-delay" på varje rect, och delayen lite för varje rect */
+  
+}
+
+.spinner .rect3 {
+  
+}
+
+.spinner .rect4 {
+  
+}
+
+.spinner .rect5 {
+  
+}
+
+@keyframes stretch {
+  0% { 
+    /* Skala ner rektangeln default state (e.g. 0.4) */
+
+  } 
+
+  20% { 
+    /* Skala upp rektangeln till max-storlek (1) */
+
+  }
+
+  40% {
+    /* Skala ner rektangeln igen (0.4)  */
+    
+  }
+}

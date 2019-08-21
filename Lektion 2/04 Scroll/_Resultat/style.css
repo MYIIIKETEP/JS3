@@ -1,22 +1,43 @@
 body {
-  font: 42px "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  font: 32px "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
   background-color: #fff;
   color: #000;
-  text-align: center;
+  text-align: left;
   padding: 0;
   margin: 0;
 }
 
-.header {
+img{
+  float:left;
+  height: 400px;
+  width: 250px;
   opacity: 0;
   transform: translateX(-50px);
+  transition: all 1.2s ease-out; 
+}
+.imgVis{
+  opacity: 1;
+  transform: translate(840px);
+}
+
+.header {
+  text-align: right;
+  opacity: 0;
+  transform: translateX(0px);
   transition: all 1.2s ease-out;
 }
 
 .headerVisible {
-  opacity: 1;
-  transform: translateX(0);
+  text-align: right;
+  opacity: 1;  
+  transition-delay: 0.25s;
+  transform: translate(-550px);
+  
+  
 }
+
+
+
 
 .section {
   padding: 200px;

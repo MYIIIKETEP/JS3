@@ -1,0 +1,18 @@
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 40px;
+  margin: 100px auto;
+
+  animation: spinner 1.2s infinite ease-in-out;
+}
+
+@keyframes spinner {
+  0% { 
+    transform: scale(0);
+  } 100% {
+    transform: scale(1.0);
+    opacity: 0;
+  }
+}

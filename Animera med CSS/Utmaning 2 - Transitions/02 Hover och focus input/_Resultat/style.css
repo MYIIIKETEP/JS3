@@ -1,0 +1,38 @@
+.inputs {
+  margin: 200px auto;
+  width: 240px;
+}
+
+.input {
+  width: 100%;
+  font-size: 16px;
+  background-color: #eee;
+  display: block;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 0;
+  padding: 10px;
+  transition: transform 0.7s ease-in-out;
+  border-bottom: 2px solid #ddd;
+  transition: all 0.3s ease-out;
+}
+
+.input:hover {
+  background-color: #f5f5f5;
+  border-bottom: 2px solid #bbb;  
+}
+
+.input:focus {
+  background-color: #fff;
+  outline: 0;
+  border-bottom: 2px solid #1267fb;
+}
+
+/*
+  1. Placeholder color
+  2. Animating placeholder color
+  3. Your own bezier curve with dev tools
+  4. Animate a border
+*/
+
+

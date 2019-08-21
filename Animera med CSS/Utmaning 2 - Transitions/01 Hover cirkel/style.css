@@ -1,0 +1,16 @@
+.circle {
+  width: 240px;
+  height: 240px;
+  background-color: #333;
+  border-radius: 240px;
+  margin: 100px auto;
+  transform: scale(0.25);
+
+  /* Lägg till "transition: transform 0.7s ease-in-out;" här för att animera
+   * mellan default state och hover state på hover
+   */
+}
+
+.circle:hover {
+  transform: scale(1);
+}

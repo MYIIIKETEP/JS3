@@ -1,0 +1,20 @@
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #333;
+  border-radius: 40px;
+  margin: 100px auto;
+
+  animation: spinner 1.2s infinite ease-out;
+}
+
+@keyframes spinner {
+  0% { 
+    /* Lägg till stiler här: skala t ex ner den med: scale(0) */
+
+  } 100% {
+    /* Lägg till stiler här: skala t ex den med scale(1) samtidigt som 
+     * du sätter opacity till 0 
+     */
+  }
+}

@@ -1,0 +1,29 @@
+.inputs {
+  margin: 200px auto;
+  width: 240px;
+}
+
+.input {
+  width: 100%;
+  font-size: 16px;
+  background-color: #eee;
+  display: block;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 0;
+  padding: 10px;
+  transition: transform 0.7s ease-in-out;
+  border-bottom: 2px solid #ddd;
+  /* Lägg till transition, och animera "all" */
+}
+
+.input:hover {
+  /* Ändra något på dens hover-state */
+  /* Byt t ex background color, border color, eller text color (eller allt) */
+
+}
+
+.input:focus {
+  /* Ändra något på focused state */
+
+}
