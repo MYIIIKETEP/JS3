@@ -1,0 +1,13 @@
+.squares {
+  width: 400px;
+  margin: 100px auto;
+  transform: scale(0.25);
+  transition: transform 0.7s ease-in-out;
+}
+
+.square {
+  width: 80px;
+  height: 80px;
+  background-color: #333;
+  display: inline-block;
+}

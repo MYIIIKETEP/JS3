@@ -1,0 +1,67 @@
+body {
+  font: 16px "Source Sans Pro", "Helvetica Neue", Arial, Helvetica, sans-serif;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  background-color: #2b2f3c;
+  height: 100%;
+  overflow: hidden;
+}
+
+.modal-applied {
+  transform: scale(1.6);
+  opacity: 0;
+}
+
+.modal-cancelled {
+  transform: scale(0.8);
+  opacity: 0;
+}
+
+.modal {
+  /* Justera eventuellt transition nedan så att det ser bra ut när det animeras */
+  transition: all 0.3s ease-in-out;
+
+  font-family: SF UI, SF Display, Helvetica Neue, Arial, sans-serif;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  height: 200px;
+  width: 300px;
+  max-width: 100%;
+  text-align: center;
+  cursor: default;
+  overflow: hidden;
+}
+
+.modal-message {
+  padding-top: 65px;
+}
+
+.modal-button {
+  border-top: 1px solid #cecece;
+  height: 40px;
+  line-height: 40px;
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.modal-button:active {
+  background-color: #eee;
+}
+
+.modal-button-left { left: 0; }
+.modal-button-right {
+  right: 0;
+  border-left: 1px solid #cecece;
+}
