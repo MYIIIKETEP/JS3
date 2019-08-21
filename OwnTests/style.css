@@ -23,3 +23,10 @@ body{
     -webkit-text-stroke-width: 1px;
    -webkit-text-stroke-color: red;
 }
+.pct{
+    height: 400px;
+    width: 700px;
+    opacity: 1;
+    transform: translateX(-50px);
+    transition: all 1.2s ease-out; 
+  }
