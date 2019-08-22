@@ -7,7 +7,7 @@ body {
   margin: 0;
 }
 
-img{
+.t{
   float:left;
   height: 400px;
   width: 250px;
@@ -17,7 +17,7 @@ img{
 }
 .imgVis{
   opacity: 1;
-  transform: translate(840px);
+  transform: translate(440px);
 }
 
 .header {

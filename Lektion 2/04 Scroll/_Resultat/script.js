@@ -1,13 +1,23 @@
 function checkForVisibility() {
   var headers = document.querySelectorAll(".header");
-  var picture = document.querySelector("img");
+  var picture = document.querySelector(".t");
+  var driv = document.querySelector(".section");
   headers.forEach(function(header) {
     if (isElementInViewport(header)) {
       header.classList.add("headerVisible");
-      picture.classList.add("imgVis");
+      
     } else {
+      header.classList.remove("headerVisible");
       
     }
+
+  if(isElementInViewport(picture)){
+    picture.classList.add("imgVis");
+  }
+  else{
+    picture.classList.remove("imgVis");
+  }
+    
   });
 }
 
